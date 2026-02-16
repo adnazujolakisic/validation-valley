@@ -27,8 +27,8 @@ export const pauseMenuStyles = css`
 		}
 
 		wa-dialog::part(panel) {
-			background-color: #1f2937;
-			border: 4px solid #374151;
+			background-color: var(--brand-dark-purple);
+			border: 4px solid var(--brand-main-purple);
 			border-radius: 0;
 			box-shadow: var(--wa-shadow-large);
 		}

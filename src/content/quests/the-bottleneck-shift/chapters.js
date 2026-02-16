@@ -120,7 +120,7 @@ export const getBottleneckShiftChapters = () => ({
 		id: "cve-tower",
 		title: msg("CVE Infrastructure Under Strain"),
 		description: msg(
-			"The tower looms ahead—the CVE Registry, keeper of vulnerability records. Once a trusted source of truth, it now struggles under the weight of noise.",
+			"The tower looms ahead,the CVE Registry, keeper of vulnerability records. Once a trusted source of truth, it now struggles under the weight of noise.",
 		),
 		problemTitle: msg("When Noise Overwhelms Signal"),
 		problemDesc: html`
@@ -169,7 +169,7 @@ export const getBottleneckShiftChapters = () => ({
 		id: "dev-loop-mines",
 		title: msg("The Inner Loop Problem"),
 		description: msg(
-			"Deep in the mines, developers labor. AI has given them powerful tools to write code faster. But something hasn't changed—the waiting.",
+			"Deep in the mines, developers labor. AI has given them powerful tools to write code faster. But something hasn't changed,the waiting.",
 		),
 		problemTitle: msg("AI Helps You Write Faster. Not Wait Faster."),
 		problemDesc: html`
@@ -269,13 +269,13 @@ export const getBottleneckShiftChapters = () => ({
 		id: "validation-springs",
 		title: msg("Better Validation"),
 		description: msg(
-			"The springs of validation flow here. Not more validation—better validation. The water teaches you three principles.",
+			"The springs of validation flow here. Not more validation,better validation. The water teaches you three principles.",
 		),
 		problemTitle: msg("The Lever"),
 		problemDesc: html`
-			<p>${msg("The lever is validation itself. Not 'more validation'—better validation.")}</p>
+			<p>${msg("The lever is validation itself. Not 'more validation',better validation.")}</p>
 			<p><strong>${msg("Earlier:")}</strong> ${msg("Catch issues before they compound, before they reach maintainers, before they hit production.")}</p>
-			<p><strong>${msg("Closer to reality:")}</strong> ${msg("Test against real dependencies, real services, real data shapes—not mocks that drift from truth.")}</p>
+			<p><strong>${msg("Closer to reality:")}</strong> ${msg("Test against real dependencies, real services, real data shapes,not mocks that drift from truth.")}</p>
 			<p><strong>${msg("Cheaper to fail:")}</strong> ${msg("Make it safe and fast to discover problems during development, not in production.")}</p>
 		`,
 		solutionTitle: msg("The Three Principles"),
@@ -314,12 +314,12 @@ export const getBottleneckShiftChapters = () => ({
 		id: "mirrord-workshop",
 		title: msg("An Example Workflow"),
 		description: msg(
-			"In the workshop, you see one approach to earlier validation in action. Not the only way—but one example of the principle.",
+			"In the workshop, you see one approach to earlier validation in action. Not the only way,but one example of the principle.",
 		),
 		problemTitle: msg("mirrord: Connect Local to Real"),
 		problemDesc: html`
 			<p>${msg("One approach to earlier validation: run your code locally while connected to real remote dependencies.")}</p>
-			<p>${msg("mirrord lets developers plug their local process into a Kubernetes cluster—accessing real databases, services, and configurations without deploying.")}</p>
+			<p>${msg("mirrord lets developers plug their local process into a Kubernetes cluster,accessing real databases, services, and configurations without deploying.")}</p>
 			<p><strong>${msg("The feedback loop shrinks from minutes to seconds.")}</strong></p>
 			<p>${msg("Changes are validated against reality before they ever reach CI.")}</p>
 			<p><em>${msg("This isn't the only approach, and it's not a silver bullet. It's one example of the principle in action.")}</em></p>
@@ -368,8 +368,8 @@ export const getBottleneckShiftChapters = () => ({
 		problemDesc: html`
 			<p>${msg("AI has permanently changed the economics of generation.")}</p>
 			<p>${msg("We can't go back to a world where production is the bottleneck.")}</p>
-			<p>${msg("The question now is whether we adapt our validation practices to match—")}</p>
-			<p><strong>${msg("—or continue drowning in unvalidated output.")}</strong></p>
+			<p>${msg("The question now is whether we adapt our validation practices to match,")}</p>
+			<p><strong>${msg(",or continue drowning in unvalidated output.")}</strong></p>
 		`,
 		solutionTitle: msg("The Way Forward"),
 		architecturalChanges: [

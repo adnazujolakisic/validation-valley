@@ -33,7 +33,7 @@ describe("UserApiClients", () => {
 				name: "Humble Developer",
 				role: "Humble Traveler",
 				hp: 50,
-				avatarColor: "#ef4444",
+				avatarColor: "#F36869",
 			});
 		});
 	});
@@ -56,7 +56,7 @@ describe("UserApiClients", () => {
 				name: "Test Dummy",
 				role: "QA Subject",
 				hp: 9999,
-				avatarColor: "#eab308",
+				avatarColor: "#FFCB7D",
 			});
 		});
 	});
@@ -79,7 +79,7 @@ describe("UserApiClients", () => {
 				name: "Humble Developer",
 				role: "Humble Traveler",
 				hp: 100,
-				avatarColor: "#22c55e",
+				avatarColor: "#756DF3",
 			});
 		});
 	});

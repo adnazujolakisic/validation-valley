@@ -53,7 +53,7 @@ export const levelDialogStyles = [
       transition: background-color 0.3s;
     }
     .indicator.active { background-color: black; }
-    .indicator.inactive { background-color: #d1d5db; }
+    .indicator.inactive { background-color: var(--brand-bear-grey); }
 
     .content-container {
       overflow-y: hidden; /* Scroll handled by children (code-block) */
@@ -68,21 +68,21 @@ export const levelDialogStyles = [
     }
 
     .hint {
-      font-size: var(--wa-font-size-2xs);
-      color: var(--wa-color-neutral-40);
+      font-size: var(--wa-font-size-s);
+      color: var(--wa-color-text-quiet);
       display: flex;
       align-items: center;
-      gap: var(--wa-space-2xs);
+      gap: var(--wa-space-xs);
     }
 
     /* Slide Content Styles */
     @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
     h6 {
-      font-size: var(--wa-font-size-2xs);
+      font-size: var(--wa-font-size-m);
       font-weight: bold;
       text-transform: uppercase;
-      margin-bottom: var(--wa-space-xs);
+      margin-bottom: var(--wa-space-s);
       text-align: center;
       margin-top: 0;
     }
@@ -110,20 +110,20 @@ export const levelDialogStyles = [
 	}
 
     .desc {
-      font-size: var(--wa-font-size-2xs);
-      color: var(--wa-color-neutral-40);
+      font-size: var(--wa-font-size-m);
+      color: var(--wa-color-text-loud);
       text-align: center;
       font-style: italic;
-      margin-top: var(--wa-space-xs);
-      padding: 0 var(--wa-space-m);
-      line-height: var(--wa-line-height-normal);
+      margin-top: var(--wa-space-s);
+      padding: 0 var(--wa-space-l);
+      line-height: 1.5;
     }
 
     .narrative-icon {
       width: var(--wa-space-4xl);
       height: var(--wa-space-4xl);
-      background-color: #fef9c3;
-      border: var(--wa-border-width-l) solid #92400e;
+      background-color: rgba(255, 203, 125, 0.2);
+      border: var(--wa-border-width-l) solid var(--brand-yellow);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -136,19 +136,19 @@ export const levelDialogStyles = [
     .analysis-item {
       display: flex;
       align-items: flex-start;
-      gap: var(--wa-space-xs);
-      font-size: var(--wa-font-size-2xs);
-      color: #374151;
-      background-color: #faf5ff;
-      padding: var(--wa-space-xs);
-      border: 1px solid #f3e8ff;
+      gap: var(--wa-space-s);
+      font-size: var(--wa-font-size-m);
+      color: var(--brand-black);
+      background-color: var(--brand-medium-purple);
+      padding: var(--wa-space-s);
+      border: 1px solid var(--brand-main-purple);
       border-radius: 0;
     }
 
     .console {
-      background-color: #eef2ff;
+      background-color: var(--brand-medium-purple);
       padding: var(--wa-space-s);
-      border: var(--wa-border-width-m) solid #c7d2fe;
+      border: var(--wa-border-width-m) solid var(--brand-main-purple);
       box-shadow: var(--wa-shadow-small);
       margin-top: var(--wa-space-m);
     }
@@ -213,14 +213,31 @@ export const levelDialogStyles = [
 
     .narrative-icon-inner {
       font-size: 2.5rem;
-      color: #92400e; /* Keeping specific brown for scroll/narrative feel if no token matches perfectly, or use neutral-loud */
+      color: var(--brand-yellow);
     }
 
     .narrative-text {
-      font-size: var(--wa-font-size-m);
+      font-size: var(--wa-font-size-l);
       text-align: center;
-      padding: 0 var(--wa-space-l);
-      color: var(--wa-color-text-quiet);
+      padding: 0 var(--wa-space-xl);
+      color: var(--wa-color-text-loud);
+      line-height: 1.6;
+    }
+
+    /* Ensure content slide text is readable */
+    .narrative-text p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      color: var(--wa-color-text-loud);
+    }
+
+    .narrative-text h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .narrative-text strong {
+      color: var(--wa-color-text-loud);
     }
 
     .analysis-list {
@@ -235,9 +252,9 @@ export const levelDialogStyles = [
     }
 
     .console-title {
-      font-size: var(--wa-font-size-2xs);
+      font-size: var(--wa-font-size-m);
       font-weight: bold;
-      margin-bottom: var(--wa-space-xs);
+      margin-bottom: var(--wa-space-s);
       text-align: center;
       color: var(--wa-color-brand-fill-loud);
     }
@@ -269,9 +286,9 @@ export const levelDialogStyles = [
     }
 
     .console-status-text {
-      font-size: var(--wa-font-size-2xs);
+      font-size: var(--wa-font-size-m);
       text-align: center;
-      margin-top: var(--wa-space-xs);
+      margin-top: var(--wa-space-s);
       color: var(--wa-color-brand-fill-loud);
     }
 
@@ -285,8 +302,9 @@ export const levelDialogStyles = [
     }
 
     .quest-complete-text {
-      font-size: var(--wa-font-size-xs);
-      color: var(--wa-color-text-quiet);
+      font-size: var(--wa-font-size-m);
+      color: var(--wa-color-text-loud);
+      line-height: 1.5;
     }
 
     .spacer-top {
@@ -324,9 +342,10 @@ export const levelDialogStyles = [
     }
 
     .reward-desc {
-      font-size: var(--wa-font-size-s);
-      color: var(--wa-color-text-quiet);
+      font-size: var(--wa-font-size-m);
+      color: var(--wa-color-text-loud);
       margin: 0;
+      line-height: 1.5;
     }
 	`,
 ];

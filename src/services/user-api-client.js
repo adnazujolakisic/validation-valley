@@ -51,7 +51,7 @@ export class LegacyUserApiClient {
 			name: "Humble Developer",
 			role: "Humble Traveler",
 			hp: 50,
-			avatarColor: "#ef4444", // Red
+			avatarColor: "#F36869", // Brand Blush Red
 		};
 	}
 
@@ -81,7 +81,7 @@ export class MockUserApiClient {
 			name: "Test Dummy",
 			role: "QA Subject",
 			hp: 9999,
-			avatarColor: "#eab308", // Yellow
+			avatarColor: "#FFCB7D", // Brand Yellow
 		};
 	}
 
@@ -111,7 +111,7 @@ export class NewUserApiClient {
 			name: "Humble Developer",
 			role: "Humble Traveler",
 			hp: 100,
-			avatarColor: "#22c55e", // Green
+			avatarColor: "#756DF3", // Brand Main Purple
 		};
 	}
 

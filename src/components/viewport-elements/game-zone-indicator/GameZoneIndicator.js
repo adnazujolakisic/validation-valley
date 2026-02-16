@@ -99,11 +99,11 @@ export class GameZoneIndicator extends SignalWatcher(LitElement) {
 		const title = isLegacy ? "Legacy" : "New API V2";
 		const sub = isLegacy ? "LegacyUserService" : "NewUserService";
 
-		// Match original colors
-		const legacyColorInactive = "#991b1b"; // Red 800
-		const legacyTitleInactive = "#7f1d1d"; // Red 900
-		const newColorInactive = "#1e40af"; // Blue 800
-		const newTitleInactive = "#1e3a8a"; // Blue 900
+		// Brand colors for inactive states
+		const legacyColorInactive = "#F36869"; // Brand Blush Red
+		const legacyTitleInactive = "#c45455"; // Darker Blush Red
+		const newColorInactive = "#756DF3"; // Brand Main Purple
+		const newTitleInactive = "#5650a8"; // Darker Purple
 
 		// Check active state
 		const currentState =

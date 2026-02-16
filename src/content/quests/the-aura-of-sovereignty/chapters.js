@@ -18,7 +18,7 @@ export const getAuraOfSovereigntyChapters = () => ({
 		id: "swamp-of-scope",
 		title: msg("The Swamp of Global Scope"),
 		description: msg(
-			"Alarion's components break under Global CSS pollution. The Rainwalker shows him the Shadow Boundary—a protective barrier that shields his code from the outside world.",
+			"Alarion's components break under Global CSS pollution. The Rainwalker shows him the Shadow Boundary,a protective barrier that shields his code from the outside world.",
 		),
 		problemTitle: msg("Before: Style Bleeding"),
 		problemDesc: msg("Global styles destroy component appearance."),

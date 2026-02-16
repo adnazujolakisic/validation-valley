@@ -11,17 +11,16 @@ export const getAboutSlidesContent = () => [
 		],
 	},
 	{
-		title: msg("The Bottleneck Canyon"),
+		title: msg("Hi, I'm Jake Page"),
 		lines: [
-			msg("A quest through two domains under pressure:"),
-			msg("Open source security and the inner developer loop."),
-			msg("The common denominator? Validation."),
+			msg("Previous DevOps Engineer, now DevRel at MetalBear."),
+			msg("Originally from Dublin, now based in Lisbon, Portugal."),
 		],
 	},
 	{
 		title: msg("MetalBear"),
 		lines: [
-			msg("Creators of mirrord — connect your local process to Kubernetes."),
+			msg("Creators of mirrord, connect your local process to Kubernetes."),
 			msg("Test against real environments without waiting for CI/CD."),
 		],
 	},

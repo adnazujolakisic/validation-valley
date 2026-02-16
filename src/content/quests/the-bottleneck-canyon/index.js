@@ -6,7 +6,7 @@ import { getBottleneckCanyonChapters } from "./chapters.js";
  * The Bottleneck Canyon Quest
  *
  * A journey through the AI-Forged Lands where AI code generation
- * has shifted where software bottlenecks exist—but has not eliminated
+ * has shifted where software bottlenecks exist,but has not eliminated
  * the need for validation. In fact, it has amplified it.
  *
  * Explores two domains: open source security and the inner developer loop.
@@ -14,7 +14,7 @@ import { getBottleneckCanyonChapters } from "./chapters.js";
 export const getBottleneckCanyonQuest = () => ({
 	...getBottleneckCanyonMetadata(),
 	legacyProblem: msg(
-		"AI accelerates generation but doesn't address validation. The bottleneck has shifted—and validation is now the constraint.",
+		"AI accelerates generation but doesn't address validation. The bottleneck has shifted,and validation is now the constraint.",
 	),
 	shortcuts: /** @type {string[]} */ ([]),
 	levels: msg("5 chapters"),

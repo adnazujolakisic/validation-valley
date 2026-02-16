@@ -24,7 +24,7 @@ export const victoryScreenStyles = [
 			width: 90%;
 			max-width: 800px;
 			padding: 2rem;
-			background: linear-gradient(135deg, var(--brand-dark-purple, #232141) 0%, #1a1833 100%);
+			background: linear-gradient(135deg, var(--brand-dark-purple) 0%, var(--brand-black) 100%);
 			color: white;
 			border-radius: 12px;
 			box-shadow: 0 0 60px rgba(117, 109, 243, 0.4);
@@ -187,7 +187,7 @@ export const victoryScreenStyles = [
 		}
 
 		.carousel-arrow:hover {
-			background: #8a82f5;
+			background: var(--brand-medium-purple);
 			transform: translateY(-50%) scale(1.1);
 		}
 
@@ -209,7 +209,7 @@ export const victoryScreenStyles = [
 			font-size: var(--wa-font-size-m);
 			--border-radius: 8px;
 			--wa-button-background-color: var(--brand-main-purple, #756DF3);
-			--wa-button-background-color-hover: #8a82f5;
+			--wa-button-background-color-hover: var(--brand-medium-purple);
 		}
 
 		/* Animations */

@@ -131,7 +131,7 @@
   <target>El Pantano del Ámbito Global</target>
 </trans-unit>
 <trans-unit id="s52f4f3b58f3a9df9">
-  <source>Alarion's components break under Global CSS pollution. The Rainwalker shows him the Shadow Boundary—a protective barrier that shields his code from the outside world.</source>
+  <source>Alarion's components break under Global CSS pollution. The Rainwalker shows him the Shadow Boundary,a protective barrier that shields his code from the outside world.</source>
   <target>Los componentes de Alarión se rompen bajo la contaminación del CSS Global. El Caminante de la Lluvia le muestra el Límite de la Sombra: una barrera protectora que blinda su código del mundo exterior.</target>
 </trans-unit>
 <trans-unit id="s2f4b83266f726f1f">
@@ -1255,8 +1255,8 @@
   <target>MetalBear</target>
 </trans-unit>
 <trans-unit id="sa2e44bb8968bc89e">
-  <source>Creators of mirrord — connect your local process to Kubernetes.</source>
-  <target>Creadores de mirrord — conecta tu proceso local a Kubernetes.</target>
+  <source>Creators of mirrord , connect your local process to Kubernetes.</source>
+  <target>Creadores de mirrord , conecta tu proceso local a Kubernetes.</target>
 </trans-unit>
 <trans-unit id="sc1c1ad6a3aa624f4">
   <source>Test against real environments without waiting for CI/CD.</source>
@@ -1291,16 +1291,16 @@
   <target>Validación en la Era de la IA</target>
 </trans-unit>
 <trans-unit id="scf60ef48cf17ec62">
-  <source>AI has transformed how we generate code, documentation, and contributions. But generation was never the hard part. Journey through Validation Valley to understand why validation is now the constraint—and what we can do about it.</source>
-  <target>La IA ha transformado cómo generamos código, documentación y contribuciones. Pero generar nunca fue lo difícil. Viaja por el Valle de la Validación para entender por qué la validación es ahora la restricción—y qué podemos hacer al respecto.</target>
+  <source>AI has transformed how we generate code, documentation, and contributions. But generation was never the hard part. Journey through Validation Valley to understand why validation is now the constraint,and what we can do about it.</source>
+  <target>La IA ha transformado cómo generamos código, documentación y contribuciones. Pero generar nunca fue lo difícil. Viaja por el Valle de la Validación para entender por qué la validación es ahora la restricción,y qué podemos hacer al respecto.</target>
 </trans-unit>
 <trans-unit id="se1caf95f96026a94">
   <source>Bottlenecks in the Age of AI-Generated Code</source>
   <target>Cuellos de Botella en la Era del Código Generado por IA</target>
 </trans-unit>
 <trans-unit id="sfad40a528e96a064">
-  <source>AI code generation has shifted where software bottlenecks exist—but has not eliminated the need for validation. Journey through the canyon to discover three major bottlenecks and learn why validation is the bottleneck breaker.</source>
-  <target>La generación de código con IA ha cambiado dónde existen los cuellos de botella del software—pero no ha eliminado la necesidad de validación. Viaja por el cañón para descubrir tres cuellos de botella principales y aprender por qué la validación es lo que los rompe.</target>
+  <source>AI code generation has shifted where software bottlenecks exist,but has not eliminated the need for validation. Journey through the canyon to discover three major bottlenecks and learn why validation is the bottleneck breaker.</source>
+  <target>La generación de código con IA ha cambiado dónde existen los cuellos de botella del software,pero no ha eliminado la necesidad de validación. Viaja por el cañón para descubrir tres cuellos de botella principales y aprender por qué la validación es lo que los rompe.</target>
 </trans-unit>
 <trans-unit id="s0bda23bf774504ea">
   <source>LLMs on Kubernetes</source>
@@ -1311,8 +1311,8 @@
   <target>Mismo Clúster, Diferente Modelo de Amenazas</target>
 </trans-unit>
 <trans-unit id="sa185f107b3366fd3">
-  <source>LLMs take untrusted user input and decide what to do with it—a security problem Kubernetes doesn't solve. Explore the OWASP LLM Top 10, build an LLM gateway for policy enforcement, and validate it with mirrord.</source>
-  <target>Los LLMs toman entrada de usuario no confiable y deciden qué hacer con ella—un problema de seguridad que Kubernetes no resuelve. Explora el OWASP LLM Top 10, construye un gateway LLM para aplicar políticas y valídalo con mirrord.</target>
+  <source>LLMs take untrusted user input and decide what to do with it,a security problem Kubernetes doesn't solve. Explore the OWASP LLM Top 10, build an LLM gateway for policy enforcement, and validate it with mirrord.</source>
+  <target>Los LLMs toman entrada de usuario no confiable y deciden qué hacer con ella,un problema de seguridad que Kubernetes no resuelve. Explora el OWASP LLM Top 10, construye un gateway LLM para aplicar políticas y valídalo con mirrord.</target>
 </trans-unit>
 <trans-unit id="scf89d13612dfba50">
   <source>25-30 min</source>
@@ -1327,8 +1327,8 @@
   <target>Qué Pasa Cuando el Código Generado por IA Llega a Tu Clúster</target>
 </trans-unit>
 <trans-unit id="s2ef63da63bc1fffa">
-  <source>AI-generated code lands inside systems that already have keys to everything. Learn the specific risks—pod security, secret management, network exposure—and build open-source security skills for your AI coding assistant.</source>
-  <target>El código generado por IA aterriza en sistemas que ya tienen las llaves de todo. Aprende los riesgos específicos—seguridad de pods, gestión de secretos, exposición de red—y desarrolla habilidades de seguridad de código abierto para tu asistente de codificación con IA.</target>
+  <source>AI-generated code lands inside systems that already have keys to everything. Learn the specific risks,pod security, secret management, network exposure,and build open-source security skills for your AI coding assistant.</source>
+  <target>El código generado por IA aterriza en sistemas que ya tienen las llaves de todo. Aprende los riesgos específicos,seguridad de pods, gestión de secretos, exposición de red,y desarrolla habilidades de seguridad de código abierto para tu asistente de codificación con IA.</target>
 </trans-unit>
 <trans-unit id="sbd981315f8b6f297">
   <source>You stand at the entrance to Validation Valley. The old ways of building software are changing. AI has arrived, and with it, a fundamental shift in where the hard work lies.</source>
@@ -1451,8 +1451,8 @@
   <target>Infraestructura CVE Bajo Presión</target>
 </trans-unit>
 <trans-unit id="s5b0a2c34cd827e7a">
-  <source>The tower looms ahead—the CVE Registry, keeper of vulnerability records. Once a trusted source of truth, it now struggles under the weight of noise.</source>
-  <target>La torre se eleva adelante—el Registro CVE, guardián de los registros de vulnerabilidades. Una vez fuente confiable de verdad, ahora lucha bajo el peso del ruido.</target>
+  <source>The tower looms ahead,the CVE Registry, keeper of vulnerability records. Once a trusted source of truth, it now struggles under the weight of noise.</source>
+  <target>La torre se eleva adelante,el Registro CVE, guardián de los registros de vulnerabilidades. Una vez fuente confiable de verdad, ahora lucha bajo el peso del ruido.</target>
 </trans-unit>
 <trans-unit id="sa1eb8d677221b8af">
   <source>When Noise Overwhelms Signal</source>
@@ -1511,8 +1511,8 @@
   <target>El Problema del Ciclo Interno</target>
 </trans-unit>
 <trans-unit id="s4516fba574fc59b8">
-  <source>Deep in the mines, developers labor. AI has given them powerful tools to write code faster. But something hasn't changed—the waiting.</source>
-  <target>En lo profundo de las minas, los desarrolladores trabajan. La IA les ha dado herramientas poderosas para escribir código más rápido. Pero algo no ha cambiado—la espera.</target>
+  <source>Deep in the mines, developers labor. AI has given them powerful tools to write code faster. But something hasn't changed,the waiting.</source>
+  <target>En lo profundo de las minas, los desarrolladores trabajan. La IA les ha dado herramientas poderosas para escribir código más rápido. Pero algo no ha cambiado,la espera.</target>
 </trans-unit>
 <trans-unit id="s4c1c60eaeef8b6a5">
   <source>AI Helps You Write Faster. Not Wait Faster.</source>
@@ -1639,16 +1639,16 @@
   <target>Mejor Validación</target>
 </trans-unit>
 <trans-unit id="sa90463ef369a872b">
-  <source>The springs of validation flow here. Not more validation—better validation. The water teaches you three principles.</source>
-  <target>Los manantiales de validación fluyen aquí. No más validación—mejor validación. El agua te enseña tres principios.</target>
+  <source>The springs of validation flow here. Not more validation,better validation. The water teaches you three principles.</source>
+  <target>Los manantiales de validación fluyen aquí. No más validación,mejor validación. El agua te enseña tres principios.</target>
 </trans-unit>
 <trans-unit id="s78df5bb53bbb3710">
   <source>The Lever</source>
   <target>La Palanca</target>
 </trans-unit>
 <trans-unit id="s5c56c43f291a9522">
-  <source>The lever is validation itself. Not 'more validation'—better validation.</source>
-  <target>La palanca es la validación misma. No 'más validación'—mejor validación.</target>
+  <source>The lever is validation itself. Not 'more validation',better validation.</source>
+  <target>La palanca es la validación misma. No 'más validación',mejor validación.</target>
 </trans-unit>
 <trans-unit id="s62ebea4fc64cc733">
   <source>Earlier:</source>
@@ -1663,8 +1663,8 @@
   <target>Más cerca de la realidad:</target>
 </trans-unit>
 <trans-unit id="s15f2aaca17658f9c">
-  <source>Test against real dependencies, real services, real data shapes—not mocks that drift from truth.</source>
-  <target>Probar contra dependencias reales, servicios reales, formas de datos reales—no mocks que se alejan de la verdad.</target>
+  <source>Test against real dependencies, real services, real data shapes,not mocks that drift from truth.</source>
+  <target>Probar contra dependencias reales, servicios reales, formas de datos reales,no mocks que se alejan de la verdad.</target>
 </trans-unit>
 <trans-unit id="sb0795b32af1eb69e">
   <source>Cheaper to fail:</source>
@@ -1707,8 +1707,8 @@
   <target>Un Flujo de Trabajo de Ejemplo</target>
 </trans-unit>
 <trans-unit id="s171234f080279e79">
-  <source>In the workshop, you see one approach to earlier validation in action. Not the only way—but one example of the principle.</source>
-  <target>En el taller, ves un enfoque de validación más temprana en acción. No es la única manera—pero es un ejemplo del principio.</target>
+  <source>In the workshop, you see one approach to earlier validation in action. Not the only way,but one example of the principle.</source>
+  <target>En el taller, ves un enfoque de validación más temprana en acción. No es la única manera,pero es un ejemplo del principio.</target>
 </trans-unit>
 <trans-unit id="s2081dec36cbb250a">
   <source>mirrord: Connect Local to Real</source>
@@ -1719,8 +1719,8 @@
   <target>Un enfoque para validación más temprana: ejecutar tu código localmente mientras estás conectado a dependencias remotas reales.</target>
 </trans-unit>
 <trans-unit id="sd23ad7baada60df3">
-  <source>mirrord lets developers plug their local process into a Kubernetes cluster—accessing real databases, services, and configurations without deploying.</source>
-  <target>mirrord permite a los desarrolladores conectar su proceso local a un clúster de Kubernetes—accediendo a bases de datos reales, servicios y configuraciones sin desplegar.</target>
+  <source>mirrord lets developers plug their local process into a Kubernetes cluster,accessing real databases, services, and configurations without deploying.</source>
+  <target>mirrord permite a los desarrolladores conectar su proceso local a un clúster de Kubernetes,accediendo a bases de datos reales, servicios y configuraciones sin desplegar.</target>
 </trans-unit>
 <trans-unit id="s787172ad373e4b6c">
   <source>The feedback loop shrinks from minutes to seconds.</source>
@@ -1787,12 +1787,12 @@
   <target>No podemos volver a un mundo donde la producción es el cuello de botella.</target>
 </trans-unit>
 <trans-unit id="s615a150e4aa935ca">
-  <source>The question now is whether we adapt our validation practices to match—</source>
-  <target>La pregunta ahora es si adaptamos nuestras prácticas de validación para estar a la altura—</target>
+  <source>The question now is whether we adapt our validation practices to match,</source>
+  <target>La pregunta ahora es si adaptamos nuestras prácticas de validación para estar a la altura,</target>
 </trans-unit>
 <trans-unit id="s5ee3a8f833f420a4">
-  <source>—or continue drowning in unvalidated output.</source>
-  <target>—o seguimos ahogándonos en salida no validada.</target>
+  <source>,or continue drowning in unvalidated output.</source>
+  <target>,o seguimos ahogándonos en salida no validada.</target>
 </trans-unit>
 <trans-unit id="sb0ef72d43ebf5606">
   <source>The Way Forward</source>
@@ -1887,8 +1887,8 @@
   <target>En algunas áreas, esas herramientas ayudan mucho.</target>
 </trans-unit>
 <trans-unit id="scdcc40bb80f9d938">
-  <source>In other areas, AI doesn't help at all—and in some cases, it actually makes things worse.</source>
-  <target>En otras áreas, la IA no ayuda en absoluto—y en algunos casos, en realidad empeora las cosas.</target>
+  <source>In other areas, AI doesn't help at all,and in some cases, it actually makes things worse.</source>
+  <target>En otras áreas, la IA no ayuda en absoluto,y en algunos casos, en realidad empeora las cosas.</target>
 </trans-unit>
 <trans-unit id="s711d2f1931bd22b1">
   <source>Two Domains Under Pressure</source>
@@ -1919,8 +1919,8 @@
   <target>Una mejor validación es la que rompe el cuello de botella.</target>
 </trans-unit>
 <trans-unit id="saeaac589ba2764b6">
-  <source>You receive the Fractured Compass—a symbol of the broken pathways ahead.</source>
-  <target>Recibes la Brújula Fracturada—un símbolo de los caminos rotos que hay por delante.</target>
+  <source>You receive the Fractured Compass,a symbol of the broken pathways ahead.</source>
+  <target>Recibes la Brújula Fracturada,un símbolo de los caminos rotos que hay por delante.</target>
 </trans-unit>
 <trans-unit id="s2eef984a24e3dceb">
   <source>Each fragment points to a different area where validation has cracked under AI pressure.</source>
@@ -2011,8 +2011,8 @@
   <target>han renunciado (22%) o han considerado renunciar (36%)</target>
 </trans-unit>
 <trans-unit id="se41874cfb878342b">
-  <source>You receive the Burden Stone—a weight that cannot be set down.</source>
-  <target>Recibes la Piedra de la Carga—un peso que no se puede dejar.</target>
+  <source>You receive the Burden Stone,a weight that cannot be set down.</source>
+  <target>Recibes la Piedra de la Carga,un peso que no se puede dejar.</target>
 </trans-unit>
 <trans-unit id="sab7f8f69dbcc693c">
   <source>It represents the realization that maintainers are carrying an unsustainable load.</source>
@@ -2043,8 +2043,8 @@
   <target>El Programa CVE</target>
 </trans-unit>
 <trans-unit id="sba2881dc4e67e5fd">
-  <source>The MITRE Corporation — an American not-for-profit organization providing independent technical expertise for national challenges — was maintaining this database.</source>
-  <target>MITRE Corporation—una organización estadounidense sin fines de lucro que proporciona experiencia técnica independiente para desafíos nacionales—mantenía esta base de datos.</target>
+  <source>The MITRE Corporation , an American not-for-profit organization providing independent technical expertise for national challenges , was maintaining this database.</source>
+  <target>MITRE Corporation,una organización estadounidense sin fines de lucro que proporciona experiencia técnica independiente para desafíos nacionales,mantenía esta base de datos.</target>
 </trans-unit>
 <trans-unit id="sad0dc114c8bc93df">
   <source>The contract lapsed in April 2025.</source>
@@ -2091,16 +2091,16 @@
   <target>Si la validación no mejora, la confianza en los CVEs, escáneres y priorización continuará erosionándose.</target>
 </trans-unit>
 <trans-unit id="s6190d6b6529e1ec6">
-  <source>The vulnerability tracking system everyone relies on is becoming less trustworthy — exactly when we need it most.</source>
-  <target>El sistema de seguimiento de vulnerabilidades del que todos dependen se está volviendo menos confiable—exactamente cuando más lo necesitamos.</target>
+  <source>The vulnerability tracking system everyone relies on is becoming less trustworthy , exactly when we need it most.</source>
+  <target>El sistema de seguimiento de vulnerabilidades del que todos dependen se está volviendo menos confiable,exactamente cuando más lo necesitamos.</target>
 </trans-unit>
 <trans-unit id="sc796f4f845294b35">
   <source>Security teams can't rely on assigned CVEs to prioritize their work.</source>
   <target>Los equipos de seguridad no pueden confiar en los CVEs asignados para priorizar su trabajo.</target>
 </trans-unit>
 <trans-unit id="se7f7ab087ebef779">
-  <source>Developers don't trust vulnerability scanners anymore — false-positive rates are extremely high.</source>
-  <target>Los desarrolladores ya no confían en los escáneres de vulnerabilidades—las tasas de falsos positivos son extremadamente altas.</target>
+  <source>Developers don't trust vulnerability scanners anymore , false-positive rates are extremely high.</source>
+  <target>Los desarrolladores ya no confían en los escáneres de vulnerabilidades,las tasas de falsos positivos son extremadamente altas.</target>
 </trans-unit>
 <trans-unit id="s7a9c3c5ba457204f">
   <source>The whole system is deteriorating.</source>
@@ -2131,12 +2131,12 @@
   <target>En Lo Que Todos Están de Acuerdo</target>
 </trans-unit>
 <trans-unit id="s12e02bbcc559badc">
-  <source>Stricter submission requirements — including proven validation. Improved ways of validating are what's required.</source>
-  <target>Requisitos de envío más estrictos—incluyendo validación comprobada. Se requieren mejores formas de validar.</target>
+  <source>Stricter submission requirements , including proven validation. Improved ways of validating are what's required.</source>
+  <target>Requisitos de envío más estrictos,incluyendo validación comprobada. Se requieren mejores formas de validar.</target>
 </trans-unit>
 <trans-unit id="sec74b4db301bb5a6">
-  <source>You receive the Trust Shard — a fragment of something that was once whole.</source>
-  <target>Recibes el Fragmento de Confianza—un fragmento de algo que una vez fue entero.</target>
+  <source>You receive the Trust Shard , a fragment of something that was once whole.</source>
+  <target>Recibes el Fragmento de Confianza,un fragmento de algo que una vez fue entero.</target>
 </trans-unit>
 <trans-unit id="s25eb0823fe5e9c84">
   <source>It represents the eroding trust in the systems we all depend on.</source>
@@ -2191,12 +2191,12 @@
   <target>Cada cambio de contexto tiene costos cognitivos que se acumulan</target>
 </trans-unit>
 <trans-unit id="sa05960089f702e46">
-  <source>Ideally one iteration — reality is often multiple</source>
-  <target>Idealmente una iteración—la realidad a menudo son múltiples</target>
+  <source>Ideally one iteration , reality is often multiple</source>
+  <target>Idealmente una iteración,la realidad a menudo son múltiples</target>
 </trans-unit>
 <trans-unit id="s765b1a2af20347bb">
-  <source>You receive the Hourglass Fragment — a shard of time reclaimed.</source>
-  <target>Recibes el Fragmento del Reloj de Arena—un trozo de tiempo recuperado.</target>
+  <source>You receive the Hourglass Fragment , a shard of time reclaimed.</source>
+  <target>Recibes el Fragmento del Reloj de Arena,un trozo de tiempo recuperado.</target>
 </trans-unit>
 <trans-unit id="se34c1936325fb686">
   <source>It represents the realization that waiting is legacy. Waiting is something we need to avoid.</source>
@@ -2219,8 +2219,8 @@
   <target>Espejo de Validación</target>
 </trans-unit>
 <trans-unit id="s5c5f4c7bb741c75a">
-  <source>AI accelerates generation but doesn't address validation. The bottleneck has shifted—and validation is now the constraint.</source>
-  <target>La IA acelera la generación pero no aborda la validación. El cuello de botella ha cambiado—y la validación es ahora la restricción.</target>
+  <source>AI accelerates generation but doesn't address validation. The bottleneck has shifted,and validation is now the constraint.</source>
+  <target>La IA acelera la generación pero no aborda la validación. El cuello de botella ha cambiado,y la validación es ahora la restricción.</target>
 </trans-unit>
 <trans-unit id="s06adef3243dd1b50">
   <source>CVE System</source>
@@ -2255,8 +2255,8 @@
   <target>Donde Termina el Ciclo de Desarrollo Legado</target>
 </trans-unit>
 <trans-unit id="s00dba26fbe2c0ac6">
-  <source>VALIDATION VALLEY is your journey through the bottlenecks of modern software development. Discover how AI has shifted where constraints exist—and learn why validation is the new frontier.</source>
-  <target>VALLE DE LA VALIDACIÓN es tu viaje a través de los cuellos de botella del desarrollo de software moderno. Descubre cómo la IA ha cambiado dónde existen las restricciones—y aprende por qué la validación es la nueva frontera.</target>
+  <source>VALIDATION VALLEY is your journey through the bottlenecks of modern software development. Discover how AI has shifted where constraints exist,and learn why validation is the new frontier.</source>
+  <target>VALLE DE LA VALIDACIÓN es tu viaje a través de los cuellos de botella del desarrollo de software moderno. Descubre cómo la IA ha cambiado dónde existen las restricciones,y aprende por qué la validación es la nueva frontera.</target>
 </trans-unit>
 <trans-unit id="s05cb7625ceae4f5f">
   <source>Your Journey Ahead</source>
@@ -2347,8 +2347,8 @@
   <target>5 capítulos</target>
 </trans-unit>
 <trans-unit id="sd4c2a2efcdaa52fa">
-  <source>Open source projects like Django and Curl have offered bug bounties — financial rewards for real vulnerability reports — through platforms like HackerOne.</source>
-  <target>Proyectos de código abierto como Django y Curl han ofrecido bug bounties — recompensas financieras por reportes reales de vulnerabilidades — a través de plataformas como HackerOne.</target>
+  <source>Open source projects like Django and Curl have offered bug bounties , financial rewards for real vulnerability reports , through platforms like HackerOne.</source>
+  <target>Proyectos de código abierto como Django y Curl han ofrecido bug bounties , recompensas financieras por reportes reales de vulnerabilidades , a través de plataformas como HackerOne.</target>
 </trans-unit>
 <trans-unit id="s3b70f3baf46e26e6">
   <source>volunteers</source>

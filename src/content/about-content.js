@@ -11,9 +11,9 @@ export const getAboutSlidesContent = () => [
 		],
 	},
 	{
-		title: msg("Hi, I'm Jake Page"),
+		title: msg("Hi, I'm Adna Lakisic"),
 		lines: [
-			msg("Previous DevOps Engineer, now DevRel at MetalBear."),
+			msg("Solution Engineer at MetalBear."),
 			msg("Originally from Dublin, now based in Lisbon, Portugal."),
 		],
 	},

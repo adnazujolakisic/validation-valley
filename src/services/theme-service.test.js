@@ -39,14 +39,13 @@ describe("ThemeService", () => {
 		vi.resetAllMocks();
 	});
 
-	it("should initialize with default system theme if no storage", () => {
+	it("should initialize with default dark theme if no storage", () => {
 		mockStorage.getItem.mockReturnValue(null);
 		service = new ThemeService(mockLogger, mockStorage);
 
-		expect(service.themeMode.get()).toBe("system");
+		expect(service.themeMode.get()).toBe("dark");
 		expect(mockStorage.getItem).toHaveBeenCalledWith("legacys-end-theme");
-		// Should check root element, and should default to light if match media says so (mocked false)
-		expect(document.documentElement.classList.contains("wa-light")).toBe(true);
+		expect(document.documentElement.classList.contains("wa-dark")).toBe(true);
 		expect(document.documentElement.classList.contains("wa-theme-pixel")).toBe(
 			true,
 		);

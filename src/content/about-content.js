@@ -1,4 +1,5 @@
 import { msg } from "@lit/localize";
+import adnaImage from "../assets/about/adna-lakisic.png";
 
 export const getAboutSlidesContent = () => [
 	{
@@ -12,17 +13,8 @@ export const getAboutSlidesContent = () => [
 	},
 	{
 		title: msg("Hi, I'm Adna Lakisic"),
-		lines: [
-			msg("Solution Engineer at MetalBear."),
-			msg("Originally from Dublin, now based in Lisbon, Portugal."),
-		],
-	},
-	{
-		title: msg("MetalBear"),
-		lines: [
-			msg("Creators of mirrord, connect your local process to Kubernetes."),
-			msg("Test against real environments without waiting for CI/CD."),
-		],
+		image: adnaImage,
+		lines: [msg("Solution Engineer at MetalBear.")],
 	},
 	{
 		title: msg("Special Thanks"),

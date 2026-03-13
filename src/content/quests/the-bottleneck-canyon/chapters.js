@@ -393,29 +393,7 @@ export const getBottleneckCanyonChapters = () => ({
 					</div>
 				</div>
 			`,
-			// Slide 5: The results - three boxes + scanning bots column
-			html`
-				<div style="display: flex; gap: 2rem; align-items: center; justify-content: center; flex-wrap: wrap;">
-					<div style="flex: 1; min-width: 400px; max-width: 500px;">
-						<h3 style="margin-bottom: 1.5rem; color: var(--brand-blush-red);">${msg("What's at Stake")}</h3>
-						<div style="display: flex; flex-direction: column; gap: 1rem;">
-							<div style="padding: 1rem; background: rgba(243, 104, 105, 0.1); border-radius: 8px;">
-								<p style="margin: 0;">${msg("The vulnerability tracking system everyone relies on is becoming less trustworthy , exactly when we need it most.")}</p>
-							</div>
-							<div style="padding: 1rem; background: rgba(243, 104, 105, 0.1); border-radius: 8px;">
-								<p style="margin: 0;">${msg("Security teams can't rely on assigned CVEs to prioritize their work.")}</p>
-							</div>
-							<div style="padding: 1rem; background: rgba(243, 104, 105, 0.1); border-radius: 8px;">
-								<p style="margin: 0;">${msg("Developers don't trust vulnerability scanners anymore , false-positive rates are extremely high.")}</p>
-							</div>
-						</div>
-					</div>
-					<div style="flex-shrink: 0;">
-						<img src="${scanningBots}" alt="Scanning bots" style="width: 320px; height: auto;" />
-					</div>
-				</div>
-			`,
-			// Slide 5b: The deteriorating conclusion
+			// Slide 5: What's at Stake - The deteriorating conclusion
 			html`
 				<div style="display: flex; gap: 2rem; align-items: center; justify-content: center; flex-wrap: wrap;">
 					<div style="flex: 1; min-width: 400px; max-width: 500px;">
@@ -440,35 +418,7 @@ export const getBottleneckCanyonChapters = () => ({
 					</div>
 				</div>
 			`,
-			// Slide 6a: Solutions - First block
-			html`
-				<div style="text-align: center; max-width: 600px; margin: 0 auto;">
-					<h3 style="margin-bottom: 1.5rem; color: var(--brand-main-purple);">${msg("What Can Be Done?")}</h3>
-					<div style="text-align: left;">
-						<div style="margin-bottom: 1.5rem; padding: 1rem; background: rgba(117, 109, 243, 0.1); border-radius: 8px;">
-							<strong>${msg("AI Disclosure")}</strong>
-							<p style="margin: 0.5rem 0 0 0; font-size: 1.1rem; opacity: 1;">${msg("Curl and Django already ask submitters whether AI was used in the submission.")}</p>
-						</div>
-					</div>
-				</div>
-			`,
-			// Slide 6b: Solutions - Second block
-			html`
-				<div style="text-align: center; max-width: 600px; margin: 0 auto;">
-					<h3 style="margin-bottom: 1.5rem; color: var(--brand-main-purple);">${msg("What Can Be Done?")}</h3>
-					<div style="text-align: left;">
-						<div style="margin-bottom: 1.5rem; padding: 1rem; background: rgba(117, 109, 243, 0.1); border-radius: 8px; opacity: 0.855;">
-							<strong>${msg("AI Disclosure")}</strong>
-							<p style="margin: 0.5rem 0 0 0; font-size: 1.1rem; opacity: 1;">${msg("Curl and Django already ask submitters whether AI was used in the submission.")}</p>
-						</div>
-						<div style="margin-bottom: 1.5rem; padding: 1rem; background: rgba(117, 109, 243, 0.1); border-radius: 8px;">
-							<strong>${msg("Rethinking Incentives")}</strong>
-							<p style="margin: 0.5rem 0 0 0; font-size: 1.1rem; opacity: 1;">${msg("Daniel and the curl team have already removed the financial aspect from their bug bounty program.")}</p>
-						</div>
-					</div>
-				</div>
-			`,
-			// Slide 6c: Solutions - Third block (final)
+			// Slide 6: Solutions - What Can Be Done? (consolidated)
 			html`
 				<div style="text-align: center; max-width: 600px; margin: 0 auto;">
 					<h3 style="margin-bottom: 1.5rem; color: var(--brand-main-purple);">${msg("What Can Be Done?")}</h3>
@@ -557,15 +507,7 @@ export const getBottleneckCanyonChapters = () => ({
 					<img src="${bottleneckedLoop}" alt="The Bottlenecked Loop" style="max-width: 95%; max-height: 450px; height: auto;" />
 				</div>
 			`,
-			// Slide 3: Definition of the bottleneck - no header
-			html`
-				<div style="text-align: center; max-width: 600px; margin: 0 auto;">
-					<p style="font-size: 1.2em; padding: 1.5rem; background: rgba(243, 104, 105, 0.1); border-radius: 12px; border: 2px solid var(--brand-blush-red);">
-						${msg("Waiting for pipelines and deployment to run to completion in order to test your code in a realistic environment.")}
-					</p>
-				</div>
-			`,
-			// Slide 4: Why is this an issue? - no header
+			// Slide 3: Why is this an issue? - no header
 			html`
 				<div style="text-align: center; max-width: 650px; margin: 0 auto;">
 					<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
@@ -587,7 +529,7 @@ export const getBottleneckCanyonChapters = () => ({
 					</div>
 				</div>
 			`,
-			// Slide 5: What if there was a different loop? - no header, bigger asset
+			// Slide 4: What if there was a different loop? - no header, bigger asset
 			html`
 				<div style="text-align: center;">
 					<img src="${validatedLoop}" alt="The Validated Loop" style="max-width: 95%; max-height: 500px; height: auto;" />

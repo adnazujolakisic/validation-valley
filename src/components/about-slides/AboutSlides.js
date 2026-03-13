@@ -30,8 +30,16 @@ export class AboutSlides extends LitElement {
 					${slides.map(
 						(slide) => html`
 						<wa-carousel-item>
-							<h2>${slide.title}</h2>
-							${slide.lines.map((line) => html`<p>${line}</p>`)}
+							${
+								slide.image
+									? html`<img src="${slide.image}" alt="${slide.title}" class="about-slide-image" style="width: 80px; height: 80px; object-fit: contain; border-radius: 50%; margin-bottom: 1rem;" />`
+									: ""
+							}
+							<h2 style="${slide.image ? "font-size: 1rem;" : ""}">${slide.title}</h2>
+							${slide.lines.map(
+								(line) =>
+									html`<p style="${slide.image ? "font-size: 0.95rem;" : ""}">${line}</p>`,
+							)}
 							${
 								slide.link
 									? html`

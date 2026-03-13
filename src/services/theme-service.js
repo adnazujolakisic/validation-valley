@@ -25,7 +25,21 @@ export class ThemeService {
 
 		// Apply initial theme
 		this.#applyTheme(this.themeMode.get());
+
+		// Listen for OS theme changes when in system mode
+		this.#mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+		this.#mediaQuery.addEventListener("change", this.#handleSystemThemeChange);
 	}
+
+	/** @type {MediaQueryList} */
+	#mediaQuery;
+
+	#handleSystemThemeChange = () => {
+		if (this.themeMode.get() === ThemeModes.SYSTEM) {
+			this.#applyTheme(ThemeModes.SYSTEM);
+			this.logger.info("🎨 Theme updated to match OS preference");
+		}
+	};
 
 	/**
 	 * Sets the theme mode.
@@ -56,7 +70,7 @@ export class ThemeService {
 	}
 
 	/**
-	 * Loads stored theme or defaults to 'system'
+	 * Loads stored theme or defaults to 'dark'
 	 * @returns {ThemeMode}
 	 */
 	#loadStoredTheme() {
@@ -67,7 +81,7 @@ export class ThemeService {
 		) {
 			return /** @type {ThemeMode} */ (stored);
 		}
-		return ThemeModes.SYSTEM;
+		return ThemeModes.DARK;
 	}
 
 	/**

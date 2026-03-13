@@ -22,6 +22,14 @@ export const aboutSlidesStyles = [
 			padding: 2rem;
 		}
 
+		.about-slide-image {
+			width: 100px;
+			height: 100px;
+			object-fit: cover;
+			border-radius: 50%;
+			margin-bottom: 1rem;
+		}
+
 		h2 {
 			font-family: 'Press Start 2P', monospace;
 			font-size: 1.5rem;

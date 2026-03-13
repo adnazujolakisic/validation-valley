@@ -5,6 +5,7 @@ import "@awesome.me/webawesome/dist/components/button/button.js";
 import "@awesome.me/webawesome/dist/components/icon/icon.js";
 import "../about-slides/about-slides.js";
 import "../language-selector/language-selector.js";
+import "../theme-selector/theme-selector.js";
 import "./components/quest-card/quest-card.js";
 import metalbearMascot from "../../assets/validation-clearing/metalbear.png";
 import { UIEvents } from "../../core/events.js";
@@ -100,6 +101,7 @@ export class QuestHub extends LitElement {
 						<language-selector
 							.localizationService="${this.localizationService}"
 						></language-selector>
+						<theme-selector></theme-selector>
 						</div>
 					</nav>
 
